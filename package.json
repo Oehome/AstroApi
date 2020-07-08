@@ -1,0 +1,22 @@
+{
+  "name": "astroapi",
+  "version": "1.0.0",
+  "description": "api thats calculates astrodtata based on given lat and lon for a given time period in days",
+  "main": "server.js",
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oliver@porrmann.de",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "suncalc": "^1.8.0"
+  }
+}
